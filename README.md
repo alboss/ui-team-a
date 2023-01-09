@@ -1,1 +1,2 @@
-# ui-team-1
+# UI Team 1
+Team members: edit this Readme file to put in a description of your project.
