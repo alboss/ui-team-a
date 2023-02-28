@@ -26,6 +26,10 @@
     color: #fff;
     cursor: pointer;
   }
+  .striped-border{
+    border: 1px dashed gold; 
+    width: 25%;
+  }
   .navbar-list{
     list-style: none;
     margin: 0;
@@ -54,7 +58,7 @@
     border-radius: 10px;
     padding: 20px;
     border: 1px solid black;
-    margin-top: 250px;
+    margin-top: 100px;
   }
   .contact-box h2{
     text-align: center;
@@ -77,4 +81,19 @@
 
   .contact-box li span:last-child{
     color: gold;
+  }
+  .about-container h1{
+    color: #fff;
+    text-align: center;
+    margin-top: 75px;
+  }
+  .about-box{
+    background-color: #333;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid black;
+    margin-top: 10px;
+  }
+  .about-box p{
+    color: #fff;
   }
