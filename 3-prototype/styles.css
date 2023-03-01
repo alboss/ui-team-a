@@ -60,11 +60,17 @@
     gap: 40px;
   }
   .tile{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 500px;
     background-color: #333;
     border-radius: 10px;
     padding: 20px;
     border: 1px solid black;
-    margin-top: 25px;
+    margin-top: 50px;
   }
   .tile-section a{
     color: #fff;
@@ -97,12 +103,22 @@
     text-align: center;
     color: #fff;
   }
+  .contact-title{
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+    margin-bottom: 0;
+  }
+  .solid-line-contact{
+    border: 1px solid gold; 
+    width: 15%;
+  }
   .contact-box{
     background-color: #333;
     border-radius: 10px;
     padding: 20px;
     border: 1px solid black;
-    margin-top: 100px;
+    margin-top: 30px;
   }
   .contact-box h2{
     text-align: center;
@@ -126,17 +142,27 @@
   .contact-box li span:last-child{
     color: gold;
   }
+  .about-title{
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+    margin-bottom: 0;
+  }
+  .solid-line-about{
+    border: 1px solid gold; 
+    width: 15%;
+  }
   .about-container h1{
     color: #fff;
     text-align: center;
-    margin-top: 75px;
+    margin-top: 50px;
   }
   .about-box{
     background-color: #333;
     border-radius: 10px;
     padding: 20px;
     border: 1px solid black;
-    margin-top: 10px;
+    margin-top: 30px;
   }
   .about-box p{
     color: #fff;
