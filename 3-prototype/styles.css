@@ -23,12 +23,16 @@
   .header-title:hover {
     border-radius: 7px;
     background-color: #222;
-    color: #fff;
+    color: gold;
     cursor: pointer;
   }
-  .striped-border{
-    border: 1px dashed gold; 
+  .solid-line{
+    border: 1px solid gold; 
     width: 25%;
+  }
+  .solid-line-demo{
+    border: 1px solid gold; 
+    width: 15%;
   }
   .navbar-list{
     list-style: none;
@@ -43,15 +47,55 @@
     color: #fff;
     text-decoration: none;
   }
-  .navbar-list li:hover {
-    border-radius: 7px;
+  .navbar-list li a:hover {
+    border-radius: 10px;
     background-color: #222;
-    color: #fff;
+    color: gold;
     cursor: pointer;
   }
-  li > a {
-    color: inherit;
+  .tile-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+  .tile{
+    background-color: #333;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid black;
+    margin-top: 25px;
+  }
+  .tile-section a{
+    color: #fff;
     text-decoration: none;
+  }  
+  .tile-section a:hover{
+    color: gold;
+    cursor: pointer;
+  }
+  .demo-title{
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+    margin-bottom: 0;
+  }
+  .demo-section{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  .demo-card{
+    background-color: #333;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid black;
+    margin-top: 25px;
+  }
+  .demo-description{
+    text-align: center;
+    color: #fff;
   }
   .contact-box{
     background-color: #333;
